@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/dish-searcher/static/js/main.c632353a.js",
+    "index.html": "/dish-searcher/index.html",
+    "main.c632353a.js.map": "/dish-searcher/static/js/main.c632353a.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c632353a.js"
+  ]
+}

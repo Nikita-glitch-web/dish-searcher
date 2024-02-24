@@ -1,0 +1,17 @@
+.search_bar_container {
+    display: flex;
+    justify-content: center;
+}
+
+.search_bar_input {
+    background: #F4F4F4;
+    border: 1px solid grey;
+    width: 225px;
+    height: 24px;
+    padding-left: 10px;
+}
+
+.search_bar_input:focus {
+    border: 1px solid #1564FF;
+    outline: none;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./SearchPage.module.css";
 
-export const SearchPage = () => {
+const SearchPage = (index) => {
   return (
     <div className={style.search_bar_container}>
       <input
@@ -11,3 +11,6 @@ export const SearchPage = () => {
     </div>
   );
 };
+
+
+export const PageSearchTwo = () => SearchPage(2);

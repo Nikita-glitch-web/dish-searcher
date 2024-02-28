@@ -1,0 +1,20 @@
+Далі, налаштуй роути щоб працювали без саб роутів /dish-search/ тут не потрібно. 
+Треба налаштувати react router та create react app щоб працював з відносною адресою, 
+у тебе в роуті повинно бути тільки '/', '/search', '/details/:id'
+
+import React, { useState } from 'react';
+
+function MyForm() {
+  const [inputValue, setInputValue] = useState('');
+
+  const handleInputChange = (e) => {
+    setInputValue(e.target.value);
+  };
+
+  return (
+    <div>
+      <input type="text" value={inputValue} onChange={handleInputChange} />
+      <p>Вы ввели: {inputValue}</p>
+    </div>
+  );
+}
